@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url(https://source.unsplash.com/random);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+}
+
+  .btn-tertiary {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    line-height: 40px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 2px solid #555;
+  }
+  .btn-tertiary :hover,:focus {
+        color: lighten(#555, 20%);
+        border-color: lighten(#555, 20%);
+      }
+      span{
+        border: 2px solid rgb(0, 0, 0);
+
+      }
+  
+  .input-file {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+  }
+  .input-file .js-labelFile {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 0 10px;
+      cursor: pointer;
+  }
+
+
+  
